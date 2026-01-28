@@ -1,22 +1,21 @@
-**AI-Based Thermal Powerline Hotspot Detection**
+This project focuses on preventing power line failures using **AI-driven thermal image analysis.** Overhead transmission cables naturally generate heat due to electrical resistance, but **localized overheating** indicates rising resistance, material degradation, or imminent failure. Manual inspection of long-distance power networks is slow, risky, and inefficient — making early fault detection extremely challenging.
 
-This project develops an AI-driven predictive maintenance system that detects thermal hotspots in power lines and transmission towers using feature-level thermal data derived from drone inspections.
-Instead of raw image processing, the system works on engineered thermal features representing spatial tiles along electrical corridors, enabling scalable and real-time infrastructure intelligence.
+The solution integrates **drones equipped with thermal cameras** to capture infrared imagery of transmission lines. These images reveal heat signatures, where:
 
-**Objectives**
+Normal cables show stable, uniform thermal patterns
 
-Understand key thermal indicators used in power infrastructure monitoring
-Build a machine learning classification model to detect anomalies
-Evaluate model reliability beyond accuracy
-Perform spatial risk aggregation for corridor-level prioritization
-Translate AI outputs into drone inspection & maintenance actions
+Fault-prone cables display abnormal hotspots indicating stress or damage risk
 
+A machine learning classification model is trained to distinguish between healthy and unhealthy cable segments using thermal features. Once deployed, the system automatically analyzes incoming drone data and flags segments whose heat signatures match **pre-failure patterns.**
 
-**Tech Stack**
+The output is a **predictive maintenance alert** system that enables crews to repair vulnerable sections before breakdown occurs, reducing:
 
-Python
-Pandas, NumPy
-Scikit-learn
-Matplotlib / Seaborn
-Geospatial visualization tools
+Power outages
 
+Infrastructure damage
+
+Inspection costs
+
+Safety risks
+
+The project demonstrates how **AI + drones + thermal sensing* can transform traditional power infrastructure maintenance from **reactive repair to proactive intelligence-driven prevention.**
