@@ -12,7 +12,7 @@ Perform spatial risk aggregation for corridor-level prioritization
 Translate AI outputs into drone inspection & maintenance actions
 
 
-#Tech Stack
+*Tech Stack*
 
 Python
 Pandas, NumPy
